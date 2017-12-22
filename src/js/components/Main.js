@@ -1,6 +1,9 @@
 import React from 'react';
 import AboutMe from './AboutMe';
 
+
+// let path = '../../img/'
+let path = '/portfolio/public/img'
 let portfolioLinks = [
 
     {
@@ -34,13 +37,13 @@ export default class Main extends React.Component{
             <main>
                 <div id='portfolio-link' className="portfolio-wrapper">
                 {portfolioLinks.map((item, index1) => {
-                    var imgUrl = '../../img/' + item.backgroundUrl + '.png';
+                    var imgUrl = path + item.backgroundUrl + '.png';
                     console.log(imgUrl);
                     return(
                         <div className='img-wrapper'>
                             <a href={item.link}
                                key={index1} className='img-block'>
-                                <img src={"../../img/"+ item.backgroundUrl +".png"} alt=""/>
+                                <img src={path + item.backgroundUrl +".png"} alt=""/>
                                 <div className="portfolio-text">
                                     {item.backgroundText}
                                 </div>
