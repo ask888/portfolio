@@ -3,7 +3,7 @@ import AboutMe from './AboutMe';
 
 
 // let path = '../../img/'
-let path = '/portfolio/public/img'
+let path = '/portfolio/public/img/'
 let portfolioLinks = [
 
     {
