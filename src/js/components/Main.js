@@ -2,8 +2,8 @@ import React from 'react';
 import AboutMe from './AboutMe';
 
 
-// let path = '../../img/'
-let path = '/portfolio/public/img/'
+// let path = '../../img/';
+let path = '/portfolio/public/img/';
 let portfolioLinks = [
 
     {
@@ -24,8 +24,28 @@ let portfolioLinks = [
     },
     {
         backgroundUrl: 'img4',
-        backgroundText: 'Some text',
+        backgroundText: 'Simple page with all styles and animation',
         link: 'https://ask888.github.io/landing-page/'
+    },
+    {
+        backgroundUrl: 'img5',
+        backgroundText: 'Jquery TODO list',
+        link: 'https://ask888.github.io/TODO-list/'
+    },
+    {
+        backgroundUrl: 'img6',
+        backgroundText: 'React/Node chat app that was created without Redux. It is fully resizable, because we created this app using Bootstrap-4',
+        link: 'https://chat-test-snail.herokuapp.com/'
+    },
+    {
+        backgroundUrl: 'img7',
+        backgroundText: 'Created very simple paint using Canvas',
+        link: 'https://ask888.github.io/canvas_paint/'
+    },
+    {
+        backgroundUrl: 'img8',
+        backgroundText: 'Teamwork: React/Redux Bookshop',
+        link: 'https://ask888.github.io/canvas_paint/'
     }
 ]
 

@@ -128,10 +128,11 @@ h1{
 
   overflow: hidden;
   width: 400px;
-  min-height: 200px;
+  height: 220px;
+  //min-height: 200px;
   opacity: 0.7;
   //background: rgba(0,0,0,.5);
-  margin-bottom: 40px;
+  margin-bottom: 70px;
   &:hover{
     opacity: 1;
   }
@@ -158,18 +159,18 @@ h1{
   //-webkit-transform: translateY(-12px);
   //transform: translateY(-12px);
   opacity: 1;
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
 }
 .img-block:hover>.portfolio-text{
   top: 0px;
   min-height: 80px;
-  transition: 0.7s;
-  padding-left: 30px;
-  padding-top: 30px;
+  transition: 0.6s;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 .portfolio-text{
   position: absolute;
